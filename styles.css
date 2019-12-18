@@ -1,0 +1,57 @@
+*{
+  box-sizing:border-box;
+}
+
+html{
+  height:100%;
+}
+
+body{
+  font-family: 'Special Elite', cursive;
+  height:100%;
+  margin:0px;
+  text-align:center;
+}
+
+#leftside{
+  width: 50%;
+  float:left;
+  height:100%;
+  background-color:#E3F2FD;
+}
+
+#rightside{
+  width:50%;
+  float:right;
+  height:100%;
+  background-color:black;
+}
+
+.lefttxt{
+  border : 3px solid white;
+  display: inline-block;
+  padding:1em;
+  margin:7em auto;
+  color:blue;
+  
+  
+}
+
+.righttxt{
+  border:3px solid grey;
+  display:inline-block;
+  padding: 1em;
+  margin:7em auto;
+  color:red;
+}
+
+a{
+  text-decoration:none;
+}
+
+a.avm:visited{
+  color:none;
+}
+a.ahm:visited{
+  color:none;
+}
